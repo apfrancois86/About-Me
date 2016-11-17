@@ -1,0 +1,156 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: red;
+}
+#nav {
+  position: relative;
+  margin-right: 10px;
+}
+#nav li {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+.float-right:hover{
+  text-decoration: underline;
+  color: white;
+}
+.float-right {
+  float:right;
+  display: inline-block;
+  font-size: 14pt;
+  padding: 30px 10px 10px 10px;
+}
+
+.number {
+  padding-top: 17px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 40pt;
+  font-family: GameOfThrones;
+}
+
+#top img {
+  width: 100%;
+  border-top: 3px solid red;
+  border-bottom: 3px solid red;
+}
+
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+hr {
+  text-align: center;
+  margin-top: 20%;
+  width: 90%;
+}
+
+#wrap {
+width:45%;
+float:left;
+margin: 15px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  font-size: 10pt;
+}
+
+#signUp {
+  width: 200px;
+  height: 30px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px 5px red;
+  border: 2px solid red;
+  background-color: black;
+  color: red;
+  font-family: GameOfThrones;
+}
+#signUp:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.container h2, h4 {
+  text-align: center;
+}
+
+.container h2{
+  font-family: GameOfThrones;
+}
+
+form {
+  text-align: center;
+}
+
+#subscribe {
+  margin-bottom: 50px;
+  margin-top: 20px;
+  width: 80%;
+  box-shadow: 0 0 15px 5px red;
+}
+#emailMe {
+  height: 40px;
+  width: 200px;
+  box-shadow: 0 0 15px 5px red;
+  border: 2px solid red;
+  background-color: black;
+  color: red;
+  font-family: GameOfThrones;
+  margin-top: 20px;
+}
+#emailMe:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.buttonLeft1 {
+  left: 42%;
+  float: right;
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+}
+
+#images {
+  width: 700px;
+}
+
+.image {
+  border: 2px solid red;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.image:hover {
+  border: 2px solid white;
+}
+
+h3 {
+  font-family: GameOfThrones;
+}
+
+#innerSub {
+  background-color: rgba(255, 0, 0, .5);
+  margin-top: -5px;
+  padding: 40px;
+}
